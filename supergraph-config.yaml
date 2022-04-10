@@ -3,3 +3,7 @@ subgraphs:
     routing_url: http://localhost:4010
     schema:
       subgraph_url: http://localhost:4010
+  fitness:
+    routing_url: http://localhost:4011
+    schema:
+      subgraph_url: http://localhost:4011
