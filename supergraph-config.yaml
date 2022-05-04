@@ -1,9 +1,10 @@
+federation_version: 2
 subgraphs:
   food:
-    routing_url: http://localhost:4010
+    routing_url: http://fleet-graph-food:4010/graphql
     schema:
-      subgraph_url: http://localhost:4010
+      subgraph_url: http://localhost:4010/graphql
   fitness:
-    routing_url: http://localhost:4011
+    routing_url: http://fleet-graph-fitness/graphql
     schema:
-      subgraph_url: http://localhost:4011
+      subgraph_url: http://localhost:4011/graphql
